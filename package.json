@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "All coding files of mine made while learning Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "Sanket Talaviya",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
