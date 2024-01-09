@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output.css">
+    <title>Alignment</title>
+</head>
+
+<body>
+
+    <!-- justify-content is used in flexbox -->
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-content: flex-start</p>
+    <div class="flex flex-row justify-start flex-wrap bg-black py-10">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-content: flex-end</p>
+    <div class="flex flex-row justify-end flex-wrap bg-black py-10">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-content: center</p>
+    <div class="flex flex-row justify-center flex-wrap bg-black py-10">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-content: space-between</p>
+    <div class="flex flex-row justify-between flex-wrap bg-black py-10">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-content: space-around</p>
+    <div class="flex flex-row justify-around flex-wrap bg-black py-10">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-content: space-evenly</p>
+    <div class="flex flex-row justify-evenly flex-wrap bg-black py-10">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <!-- justify-items is used in grid -->
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-items: start</p>
+    <div class="grid grid-cols-3 bg-slate-900 justify-items-start px-4 py-11 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">4</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">5</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">6</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-items: end</p>
+    <div class="grid grid-cols-3 bg-slate-900 justify-items-end px-4 py-11 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">4</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">5</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">6</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-items: center</p>
+    <div class="grid grid-cols-3 bg-slate-900 justify-items-center px-4 py-11 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">4</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">5</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">6</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">justify-items: stretch</p>
+    <div class="grid grid-cols-3 bg-slate-900 justify-items-stretch px-4 py-11 gap-5">
+        <div class="bg-yellow-500 text-center py-12 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 text-3xl">3</div>
+        <div class="bg-yellow-500 text-center py-12 text-3xl">4</div>
+        <div class="bg-yellow-500 text-center py-12 text-3xl">5</div>
+        <div class="bg-yellow-500 text-center py-12 text-3xl">6</div>
+    </div>
+
+    <!-- align-items is used in flexbox -->
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-items: flex-start</p>
+    <div class="flex flex-row items-start flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-items: flex-end</p>
+    <div class="flex flex-row items-end flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-items: center</p>
+    <div class="flex flex-row items-center flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-items: baseline</p>
+    <div class="flex flex-row items-baseline flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-15 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-12 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-8 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-28 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-14 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-items: stretch</p>
+    <div class="flex flex-row items-stretch flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <!-- place-items is used in grid -->
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-items: start</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-items-start h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-items: end</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-items-end h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-items: center</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-items-center h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-items: baseline</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-items-baseline h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-10 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-28 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-16 w-36 text-3xl">3</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-items: stretch</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-items-stretch h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+    </div>
+
+    <!-- align-content is used in flexbox -->
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-content: start</p>
+    <div class="flex flex-row content-start flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-content: end</p>
+    <div class="flex flex-row content-end flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-content: center</p>
+    <div class="flex flex-row justify-center flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-content: space-between</p>
+    <div class="flex flex-row content-between flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-content: space-around</p>
+    <div class="flex flex-row content-around flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">align-content: space-evenly</p>
+    <div class="flex flex-row content-evenly flex-wrap bg-black h-96">
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">S</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">A</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">N</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">K</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">E</div>
+        <div class="bg-[gold] w-40 text-center py-10 text-3xl">T</div>
+    </div>
+
+    <!-- place-content is used in grid -->
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-content: start</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-content-start h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-content: end</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-content-end h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-content: center</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-content-center h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-content: space-between</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-content-between h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">4</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">5</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">6</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-content: space-around</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-content-around h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+        <div class="bg-yellow-500 text-center py-10 w-36 text-3xl">4</div>
+        <div class="bg-yellow-500 text-center py-10 w-36 text-3xl">5</div>
+        <div class="bg-yellow-500 text-center py-10 w-36 text-3xl">6</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-content: space-evenly</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-content-evenly h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">4</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">5</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">6</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-content: baseline</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-content-baseline h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+    </div>
+
+    <p class="font-bold font-sans text-2xl text-center py-2">place-content: stretch</p>
+    <div class="grid grid-cols-3 bg-slate-900 place-content-stretch h-96 px-4 gap-5">
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">1</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">2</div>
+        <div class="bg-yellow-500 text-center py-12 w-36 text-3xl">3</div>
+    </div>
+</body>
+
+</html>
