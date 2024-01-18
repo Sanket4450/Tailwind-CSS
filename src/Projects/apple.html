@@ -50,12 +50,24 @@
             <i class="fa-solid fa-mobile-screen text-5xl pb-2"></i>
             <p class="font-light">Compare</p>
         </div>
-        <div class="shrink-0 tab:w-[10vw] py-5 hover:cursor-pointer" onmouseover="convertTextToBlue(this)"
+        <div class="shrink-0 tab:w-[10vw] py-5 hover:cursor-pointer max-phone:hidden" onmouseover="convertTextToBlue(this)"
             onmouseleave="resetBlueText(this)">
             <i class="fa-solid fa-desktop text-5xl pb-2"></i>
             <p class="font-light">Displays</p>
         </div>
-        <div class="shrink-0 tab:w-[10vw] py-5 hover:cursor-pointer" onmouseover="convertTextToBlue(this)"
+        <div class="shrink-0 tab:w-[10vw] py-5 hover:cursor-pointer max-phone:hidden" onmouseover="convertTextToBlue(this)"
+            onmouseleave="resetBlueText(this)">
+            <i class="fa-solid fa-headphones text-5xl pb-2"></i>
+            <p class="font-light">Accessories</p>
+        </div>
+    </section>
+    <section class="max-phone:flex phone:hidden max-phone:justify-evenly max-phone:bg-[#FBFBFB] max-phone:text-center max-phone:text-slate-800 max-phone:text-[12px]">
+        <div class="shrink-0 py-5 hover:cursor-pointer" onmouseover="convertTextToBlue(this)"
+            onmouseleave="resetBlueText(this)">
+            <i class="fa-solid fa-desktop text-5xl pb-2"></i>
+            <p class="font-light">Displays</p>
+        </div>
+        <div class="shrink-0 py-5 hover:cursor-pointer" onmouseover="convertTextToBlue(this)"
             onmouseleave="resetBlueText(this)">
             <i class="fa-solid fa-headphones text-5xl pb-2"></i>
             <p class="font-light">Accessories</p>
@@ -70,7 +82,7 @@
                 <h1 class="text-4xl font-semibold">MacBook Air</h1>
                 <p class="font-semibold">Strikingly thin and fast so you can<br>work, play, or create anywhere.</p>
             </div>
-            <div class="w-64 mx-auto">
+            <div class="max-phone:w-[80%] w-64 mx-auto">
                 <img src="https://www.apple.com/v/macbook-air/q/images/overview/macbook_air__d2234mv3oe0y_small_2x.jpg"
                     alt="MacBook Air">
             </div>
@@ -425,7 +437,7 @@
     <section class="mx-5 tab:mx-6 lg:mx-auto lg:w-[980px]">
         <section
             class="flex flex-col md:flex-row justify-center md:justify-evenly items-center md:items-start text-center py-16">
-            <div class="w-64 md:w-56 xl:w-64 max-md:py-5 hover:cursor-pointer">
+            <div class="max-phone:w-[90%] w-64 md:w-56 xl:w-64 max-md:py-5 hover:cursor-pointer">
                 <i class="fa-solid fa-dollar-sign text-3xl xl:text-5xl py-2"></i>
                 <h2 class="text-xl xl:text-2xl font-semibold py-2">Pay monthly at 0% APR</h2>
                 <p class="text-md lg:text-lg font-light">You can pay over time when you choose to check out with Apple Card
@@ -435,7 +447,7 @@
                     Learn
                     more &#8250;</p>
             </div>
-            <div class="w-64 md:w-56 xl:w-64 max-md:py-5 hover:cursor-pointer">
+            <div class="max-phone:w-[90%] w-64 md:w-56 xl:w-64 max-md:py-5 hover:cursor-pointer">
                 <i class="fa-solid fa-truck text-3xl xl:text-5xl py-2"></i>
                 <h2 class="text-xl xl:text-2xl font-semibold py-2">Pay monthly at 0% APR</h2>
                 <p class="text-md xl:text-lg font-light">Enjoy two-hour delivery from an Apple Store, free delivery, or easy pickup.
@@ -445,7 +457,7 @@
                     Learn
                     more &#8250;</p>
             </div>
-            <div class="w-64 md:w-56 xl:w-64 max-md:py-5 hover:cursor-pointer">
+            <div class="max-phone:w-[90%] w-64 md:w-56 xl:w-64 max-md:py-5 hover:cursor-pointer">
                 <i class="fa-regular fa-comments text-3xl xl:text-5xl py-2"></i>
                 <h2 class="text-xl xl:text-2xl font-semibold py-2">Get help buying</h2>
                 <p class="text-md xl:text-lg font-light">Have a question? Call a Specialist or chat online.
@@ -456,7 +468,7 @@
                     Contact
                     us &#8250;</p>
             </div>
-            </section>
+        </section>
         <section class="text-[12px] font-light py-3.5 text-slate-800 border-t-[0.5px] border-slate-800">
             <p class="py-1.5">* Monthly pricing is available when you select Apple Card Monthly Installments (ACMI) as payment
                 type at
